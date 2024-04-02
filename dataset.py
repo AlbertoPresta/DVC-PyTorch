@@ -17,28 +17,78 @@ from subnet.ms_ssim_torch import ms_ssim
 from augmentation import random_flip, random_crop_and_pad_image_and_labels
 
 class DataSet(data.Dataset):
-    def __init__(self, path="./data/vimeo_septuplet/test.txt", im_height=256, im_width=256):
-        self.image_input_list, self.image_ref_list = self.get_vimeo(filefolderlist=path)
+    def __init__(self, path="/scratch/dataset/vimeo_septuplet", mode = "train", im_height=256, im_width=256):
+        self.mode = mode
+        self.root = path
+        if self.mode == "train":
+            self.filefolderlist= self.root + "/sep_trainlist.txt"
+        else:
+            self.filefolderlist= self.root + "/sep_testlist.txt"
+        self.image_input_list, self.image_ref_list = self.get_vimeo()
         self.im_height = im_height
         self.im_width = im_width
 
-        print("dataset find image: ", len(self.image_input_list))
+        #print("dataset find image: ", len(self.image_input_list))
 
-    def get_vimeo(self, rootdir="./vimeo_septuplet/sequences/", filefolderlist="./data/vimeo_septuplet/test.txt"):
-        with open(filefolderlist) as f:
+    def get_vimeo(self):
+        with open(self.filefolderlist) as f:
             data = f.readlines()
-            
+        numero_righe = len(data)
+        
+
+        print("NUMERO DI RIGHE: ",numero_righe)
         fns_train_input = []
         fns_train_ref = []
 
-        for n, line in enumerate(data, 1):
-            y = os.path.join(rootdir, line.rstrip())
-            fns_train_input += [y]
-            refnumber = int(y[-5:-4]) - 2
-            refname = y[0:-5] + str(refnumber) + '.png'
-            fns_train_ref += [refname]
+        if self.mode == "train":
+            for n, line in enumerate(data, 1):
+                if n%10000==0:
+                    print(n)
+                frame_png_dir = os.path.join(self.root,"sequences", line.rstrip())
+                lista_frame = os.listdir(frame_png_dir)
+                for j,y in enumerate(lista_frame):
+                    y_tot = os.path.join(frame_png_dir,y)
+                    refnumber = int(y_tot[-5:-4]) - 2
+                    if refnumber>=1:
+                        fns_train_input += [y_tot]
+                        refname = y_tot[0:-5] + str(refnumber) + '.png'
+                        fns_train_ref += [refname] 
+            print("lunghezza train set: ",len(fns_train_input))
+            return fns_train_input, fns_train_ref
+        elif self.mode == "valid":
+            numero_val = 200 #int(numero_righe/95)*100
+            #print("in valid ho esattamente: ",numero_val*7)
+            for n, line in enumerate(data, 1):
+                if n <= numero_val:
+                    frame_png_dir = os.path.join(self.root,"sequences", line.rstrip())
+                    lista_frame = os.listdir(frame_png_dir)
+                    for j,y in enumerate(lista_frame):
+                        y_tot = os.path.join(frame_png_dir,y)
+                        refnumber = int(y_tot[-5:-4]) - 2
+                        if refnumber>=1:
+                            fns_train_input += [y_tot]
+                            refname = y_tot[0:-5] + str(refnumber) + '.png'
+                            fns_train_ref += [refname] 
+            print("lunghezza valid set: ",len(fns_train_input))
+            return fns_train_input, fns_train_ref
+        else: 
+            numero_val = numero_righe - 20
+            print("in test ho esattamente: ",numero_val*7)
+            for n, line in enumerate(data, 1):
+                if n > numero_val:
+                    frame_png_dir = os.path.join(self.root,"sequences", line.rstrip())
+                    lista_frame = os.listdir(frame_png_dir)
+                    for j,y in enumerate(lista_frame):
+                        y_tot = os.path.join(frame_png_dir,y)
+                        refnumber = int(y_tot[-5:-4]) - 2
+                        if refnumber>=1:
+                            fns_train_input += [y_tot]
+                            refname = y_tot[0:-5] + str(refnumber) + '.png'
+                            fns_train_ref += [refname] 
+            print("lunghezza test set: ",len(fns_train_input))
+            return fns_train_input, fns_train_ref                     
 
-        return fns_train_input, fns_train_ref
+
 
     def __len__(self):
         return len(self.image_input_list)

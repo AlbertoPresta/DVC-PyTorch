@@ -1,0 +1,139 @@
+2024-04-02 18:57:26,830 INFO    MainThread:290925 [wandb_setup.py:_flush():75] Loading settings from /home/presta/.config/wandb/settings
+2024-04-02 18:57:26,830 INFO    MainThread:290925 [wandb_setup.py:_flush():75] Loading settings from /scratch/DVC-PyTorch/wandb/settings
+2024-04-02 18:57:26,830 INFO    MainThread:290925 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-04-02 18:57:26,830 INFO    MainThread:290925 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'main_dvc.py', 'program': 'main_dvc.py'}
+2024-04-02 18:57:26,865 INFO    MainThread:290925 [wandb_init.py:_log_setup():386] Logging user logs to /scratch/DVC-PyTorch/wandb/run-20240402_185726-2tpq5d1l/logs/debug.log
+2024-04-02 18:57:26,868 INFO    MainThread:290925 [wandb_init.py:_log_setup():387] Logging internal logs to /scratch/DVC-PyTorch/wandb/run-20240402_185726-2tpq5d1l/logs/debug-internal.log
+2024-04-02 18:57:26,868 INFO    MainThread:290925 [wandb_init.py:init():420] calling init triggers
+2024-04-02 18:57:26,868 INFO    MainThread:290925 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {'log': '', 'pretrain': '', 'test': False, 'testhevc': False, 'testvtl': False, 'testmcl': False, 'testauc': False, 'rerank': False, 'allpick': False, 'config': 'DVC_1024.json'}
+2024-04-02 18:57:26,868 INFO    MainThread:290925 [wandb_init.py:init():471] starting backend
+2024-04-02 18:57:26,869 INFO    MainThread:290925 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-02 18:57:26,889 INFO    MainThread:290925 [backend.py:ensure_launched():219] starting backend process...
+2024-04-02 18:57:26,904 INFO    MainThread:290925 [backend.py:ensure_launched():225] started backend process with pid: 290985
+2024-04-02 18:57:26,906 INFO    MainThread:290925 [wandb_init.py:init():480] backend started and connected
+2024-04-02 18:57:26,930 INFO    MainThread:290925 [wandb_init.py:init():550] updated telemetry
+2024-04-02 18:57:27,157 INFO    MainThread:290925 [wandb_init.py:init():581] communicating current version
+2024-04-02 18:57:27,996 INFO    MainThread:290925 [wandb_init.py:init():586] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-02 18:57:27,997 INFO    MainThread:290925 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2024-04-02 18:57:28,327 INFO    MainThread:290925 [wandb_init.py:init():624] starting run threads in backend
+2024-04-02 18:57:29,238 INFO    MainThread:290925 [wandb_run.py:_console_start():1827] atexit reg
+2024-04-02 18:57:29,241 INFO    MainThread:290925 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.REDIRECT
+2024-04-02 18:57:29,242 INFO    MainThread:290925 [wandb_run.py:_redirect():1706] Redirecting console.
+2024-04-02 18:57:29,244 INFO    MainThread:290925 [wandb_run.py:_redirect():1762] Redirects installed.
+2024-04-02 18:57:29,245 INFO    MainThread:290925 [wandb_init.py:init():651] run started, returning control to user process
+2024-04-02 19:02:51,262 INFO    MainThread:290925 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 255
+2024-04-02 19:02:51,263 INFO    MainThread:290925 [wandb_run.py:_restore():1769] restore
+2024-04-02 19:02:53,654 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 737
+}
+
+2024-04-02 19:02:53,826 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 737
+}
+
+2024-04-02 19:02:54,102 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 737
+}
+
+2024-04-02 19:02:54,685 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:54,787 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:54,891 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 737
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:54,993 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 5838
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:55,095 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:55,199 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:55,301 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:55,404 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:55,894 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+
+2024-04-02 19:02:56,319 INFO    MainThread:290925 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6522
+  total_bytes: 6522
+}
+local_info {
+}
+
+2024-04-02 19:02:57,478 INFO    MainThread:290925 [wandb_run.py:_append_history():2144] rendering history
+2024-04-02 19:02:57,479 INFO    MainThread:290925 [wandb_run.py:_append_summary():2102] rendering summary
+2024-04-02 19:02:57,479 INFO    MainThread:290925 [wandb_run.py:_append_files():2194] logging synced files

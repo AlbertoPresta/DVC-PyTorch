@@ -1,0 +1,388 @@
+2024-04-02 21:48:35,445 INFO    MainThread:400402 [internal.py:wandb_internal():92] W&B internal server running at pid: 400402, started at: 2024-04-02 21:48:35.438809
+2024-04-02 21:48:35,448 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: check_version
+2024-04-02 21:48:35,449 INFO    WriterThread:400402 [datastore.py:open_for_write():77] open: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/run-396m3y0n.wandb
+2024-04-02 21:48:35,497 DEBUG   SenderThread:400402 [sender.py:send():235] send: header
+2024-04-02 21:48:35,497 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: check_version
+2024-04-02 21:48:35,561 DEBUG   SenderThread:400402 [sender.py:send():235] send: run
+2024-04-02 21:48:35,797 INFO    SenderThread:400402 [dir_watcher.py:__init__():169] watching files in: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files
+2024-04-02 21:48:35,798 INFO    SenderThread:400402 [sender.py:_start_run_threads():812] run started: 396m3y0n with start time 1712094514
+2024-04-02 21:48:35,798 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: run_start
+2024-04-02 21:48:35,799 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:48:35,806 DEBUG   HandlerThread:400402 [meta.py:__init__():36] meta init
+2024-04-02 21:48:35,810 DEBUG   HandlerThread:400402 [meta.py:__init__():50] meta init done
+2024-04-02 21:48:35,811 DEBUG   HandlerThread:400402 [meta.py:probe():210] probe
+2024-04-02 21:48:35,813 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:48:35,825 DEBUG   HandlerThread:400402 [meta.py:_setup_git():200] setup git
+2024-04-02 21:48:35,934 DEBUG   HandlerThread:400402 [meta.py:_setup_git():207] setup git done
+2024-04-02 21:48:35,934 DEBUG   HandlerThread:400402 [meta.py:_save_pip():54] save pip
+2024-04-02 21:48:35,980 DEBUG   HandlerThread:400402 [meta.py:_save_pip():68] save pip done
+2024-04-02 21:48:35,980 DEBUG   HandlerThread:400402 [meta.py:_save_conda():75] save conda
+2024-04-02 21:48:36,501 DEBUG   HandlerThread:400402 [meta.py:_save_conda():85] save conda done
+2024-04-02 21:48:36,502 DEBUG   HandlerThread:400402 [meta.py:probe():248] probe done
+2024-04-02 21:48:36,550 DEBUG   SenderThread:400402 [sender.py:send():235] send: files
+2024-04-02 21:48:36,550 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2024-04-02 21:48:36,634 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:48:36,635 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:48:36,801 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-metadata.json
+2024-04-02 21:48:36,802 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:48:36,803 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:48:36,805 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/conda-environment.yaml
+2024-04-02 21:48:36,806 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/requirements.txt
+2024-04-02 21:48:37,132 INFO    Thread-11 :400402 [upload_job.py:push():137] Uploaded file /tmp/tmptqmqukcxwandb/2k8ks6ah-wandb-metadata.json
+2024-04-02 21:48:38,807 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:48:42,880 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:48:45,001 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:48:51,909 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:48:51,910 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:49:04,112 DEBUG   SenderThread:400402 [sender.py:send():235] send: stats
+2024-04-02 21:49:07,175 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:49:07,176 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:49:22,405 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:49:22,406 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:49:34,419 DEBUG   SenderThread:400402 [sender.py:send():235] send: stats
+2024-04-02 21:49:37,640 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:49:37,641 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:49:52,811 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:49:52,811 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:49:54,577 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:54,578 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:54,709 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:54,753 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:49:54,879 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:54,880 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:54,998 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:54,999 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:54,999 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,120 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:55,120 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:55,121 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,236 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:55,284 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:55,285 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,419 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:55,473 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:55,474 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,643 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:55,695 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:55,695 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,818 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:55,862 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:49:55,873 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:55,874 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:55,998 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:56,060 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:56,060 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:56,157 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:56,302 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:56,302 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:56,395 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:56,518 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:56,518 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:56,626 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:56,626 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:56,627 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:56,870 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:56,911 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:49:56,913 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:49:56,916 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:56,919 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,022 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:57,051 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:57,052 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,184 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:57,253 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:57,254 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,430 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:57,448 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:57,448 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,619 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:57,673 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:57,673 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,776 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:57,778 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:57,778 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:57,956 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:58,006 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:49:58,157 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:58,158 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:58,319 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:58,334 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:58,334 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:58,466 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:58,600 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:58,601 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:58,687 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:58,772 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:58,772 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:58,901 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,034 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,034 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:59,147 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,156 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,157 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:49:59,157 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:59,366 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,416 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,417 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:59,531 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,570 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,570 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:59,713 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,744 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,746 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:49:59,844 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:49:59,885 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:49:59,886 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:00,013 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:00,128 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:00,129 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:00,216 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:00,221 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:00,298 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:00,298 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:00,445 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:00,546 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:00,546 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:00,672 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:00,807 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:00,808 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:00,916 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:01,006 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:01,010 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:01,104 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:01,254 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:01,254 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:01,255 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:01,406 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:01,527 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:01,528 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:01,619 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:01,698 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:01,699 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:01,832 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:02,077 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:02,078 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:02,122 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:02,264 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:02,265 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:02,397 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:02,480 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:02,532 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:02,533 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:02,643 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:02,760 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:02,761 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:02,842 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:02,844 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:02,845 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:03,012 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:03,109 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:03,110 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:03,314 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:03,324 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:03,325 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:03,558 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:03,595 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:03,657 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:03,659 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:03,777 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:03,897 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:03,898 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:03,978 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:03,999 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:03,999 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:04,172 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:04,235 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:04,236 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:04,397 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:04,489 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:04,490 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:04,626 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:04,658 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:04,679 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:04,680 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:04,788 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:04,789 DEBUG   SenderThread:400402 [sender.py:send():235] send: stats
+2024-04-02 21:50:04,878 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:04,878 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:04,959 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,092 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,093 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:05,183 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,202 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,203 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:05,346 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,523 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,524 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:05,583 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,585 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,585 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:05,724 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,752 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,752 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:05,752 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:05,941 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:05,941 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:05,942 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,072 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,092 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,093 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,266 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,268 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,269 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,494 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,496 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,497 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,657 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,659 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,660 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,808 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,842 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,842 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:06,843 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:06,934 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:06,935 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:06,935 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,107 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,108 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,108 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,334 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,337 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,337 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,510 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,513 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,514 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,648 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,675 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,676 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,821 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,850 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:50:07,852 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:07,870 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,871 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:07,983 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:07,984 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:07,985 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,039 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:50:08,196 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:08,198 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:08,199 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,395 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:08,397 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:08,398 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,551 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:08,565 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:08,566 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,755 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:08,766 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:08,767 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,923 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:08,924 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:08,925 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:08,934 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:09,100 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:09,102 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:09,104 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:09,260 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:09,260 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:09,261 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:09,444 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:09,444 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:09,445 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:09,681 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:09,684 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:09,685 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:09,874 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:09,876 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:09,877 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:09,948 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:10,015 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:10,017 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:50:10,201 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:10,202 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:10,340 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:10,341 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:10,342 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:10,467 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:10,468 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:10,468 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:10,701 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:10,704 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:10,705 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:10,871 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:10,919 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:10,919 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:11,033 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:11,034 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:11,035 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:11,078 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:11,279 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:11,280 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:11,281 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:11,531 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:11,534 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:11,536 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:11,722 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:11,723 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:11,723 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:11,944 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:11,969 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:11,969 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:12,145 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:12,147 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:12,147 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:12,155 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:12,449 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:12,469 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:12,470 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:12,711 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:12,712 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:12,712 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:12,957 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,012 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,014 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:13,098 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,107 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,107 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:13,173 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/output.log
+2024-04-02 21:50:13,176 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:13,299 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,300 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,301 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:13,469 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,470 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,470 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:13,665 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,666 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,666 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:13,855 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:13,857 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:13,859 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,035 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,102 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,104 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,185 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,225 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,226 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:14,228 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,367 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,369 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,371 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,541 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,542 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,542 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,675 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,677 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,677 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,848 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:14,850 DEBUG   SenderThread:400402 [sender.py:send():235] send: history
+2024-04-02 21:50:14,851 DEBUG   SenderThread:400402 [sender.py:send():235] send: summary
+2024-04-02 21:50:14,977 INFO    SenderThread:400402 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:50:15,240 INFO    Thread-8  :400402 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_214834-396m3y0n/files/wandb-summary.json
+2024-04-02 21:50:25,202 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:50:25,203 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:50:35,002 DEBUG   SenderThread:400402 [sender.py:send():235] send: stats
+2024-04-02 21:50:40,388 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:50:40,388 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:50:55,652 DEBUG   HandlerThread:400402 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:50:55,652 DEBUG   SenderThread:400402 [sender.py:send_request():249] send_request: stop_status

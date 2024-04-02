@@ -1,0 +1,107 @@
+2024-04-02 21:56:07,066 INFO    MainThread:406837 [internal.py:wandb_internal():92] W&B internal server running at pid: 406837, started at: 2024-04-02 21:56:07.049832
+2024-04-02 21:56:07,070 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: check_version
+2024-04-02 21:56:07,071 INFO    WriterThread:406837 [datastore.py:open_for_write():77] open: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/run-be0aziwb.wandb
+2024-04-02 21:56:07,140 DEBUG   SenderThread:406837 [sender.py:send():235] send: header
+2024-04-02 21:56:07,141 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: check_version
+2024-04-02 21:56:07,198 DEBUG   SenderThread:406837 [sender.py:send():235] send: run
+2024-04-02 21:56:07,492 INFO    SenderThread:406837 [dir_watcher.py:__init__():169] watching files in: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files
+2024-04-02 21:56:07,494 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: run_start
+2024-04-02 21:56:07,494 INFO    SenderThread:406837 [sender.py:_start_run_threads():812] run started: be0aziwb with start time 1712094966
+2024-04-02 21:56:07,497 DEBUG   SenderThread:406837 [sender.py:send():235] send: summary
+2024-04-02 21:56:07,502 DEBUG   HandlerThread:406837 [meta.py:__init__():36] meta init
+2024-04-02 21:56:07,502 DEBUG   HandlerThread:406837 [meta.py:__init__():50] meta init done
+2024-04-02 21:56:07,502 DEBUG   HandlerThread:406837 [meta.py:probe():210] probe
+2024-04-02 21:56:07,542 INFO    SenderThread:406837 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:56:07,556 DEBUG   HandlerThread:406837 [meta.py:_setup_git():200] setup git
+2024-04-02 21:56:07,663 DEBUG   HandlerThread:406837 [meta.py:_setup_git():207] setup git done
+2024-04-02 21:56:07,663 DEBUG   HandlerThread:406837 [meta.py:_save_pip():54] save pip
+2024-04-02 21:56:07,711 DEBUG   HandlerThread:406837 [meta.py:_save_pip():68] save pip done
+2024-04-02 21:56:07,711 DEBUG   HandlerThread:406837 [meta.py:_save_conda():75] save conda
+2024-04-02 21:56:08,278 DEBUG   HandlerThread:406837 [meta.py:_save_conda():85] save conda done
+2024-04-02 21:56:08,279 DEBUG   HandlerThread:406837 [meta.py:probe():248] probe done
+2024-04-02 21:56:08,337 DEBUG   SenderThread:406837 [sender.py:send():235] send: files
+2024-04-02 21:56:08,337 INFO    SenderThread:406837 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2024-04-02 21:56:08,410 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:56:08,410 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:56:08,500 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/requirements.txt
+2024-04-02 21:56:08,501 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/wandb-metadata.json
+2024-04-02 21:56:08,501 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/wandb-summary.json
+2024-04-02 21:56:08,502 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:56:08,502 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/conda-environment.yaml
+2024-04-02 21:56:08,921 INFO    Thread-11 :406837 [upload_job.py:push():137] Uploaded file /tmp/tmp07vfk5rlwandb/16vyxybe-wandb-metadata.json
+2024-04-02 21:56:10,529 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:56:12,570 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:56:23,665 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:56:23,667 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:56:35,827 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:56:38,857 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:56:38,858 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:56:54,116 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:56:54,117 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:56:56,896 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:57:06,133 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:57:09,312 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:57:09,312 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:57:24,582 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:57:24,583 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:57:36,435 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:57:39,839 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:57:39,840 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:57:43,258 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:57:55,043 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:57:55,044 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:58:06,770 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:58:10,305 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:58:10,306 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:58:25,576 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:58:25,577 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:58:28,905 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:58:37,108 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:58:40,848 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:58:40,849 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:58:56,081 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:58:56,082 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:59:07,409 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:59:10,834 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:59:11,314 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:59:11,314 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:59:26,539 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:59:26,540 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:59:37,728 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 21:59:41,793 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:59:41,793 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:59:53,298 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:59:55,309 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 21:59:57,021 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:59:57,022 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:00:08,060 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:00:12,202 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:00:12,202 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:00:27,404 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:00:27,405 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:00:38,390 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:00:42,658 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:00:42,659 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:00:57,868 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:00:57,869 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:01:08,729 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:01:13,064 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:01:13,064 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:01:28,272 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:01:28,272 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:01:39,025 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:01:43,461 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:01:43,461 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:01:58,672 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:01:58,673 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:02:09,339 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:02:11,232 INFO    Thread-8  :406837 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/files/output.log
+2024-04-02 22:02:13,863 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:02:13,864 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:02:29,049 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:02:29,049 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:02:39,647 DEBUG   SenderThread:406837 [sender.py:send():235] send: stats
+2024-04-02 22:02:44,301 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:02:44,302 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 22:02:59,509 DEBUG   HandlerThread:406837 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 22:02:59,510 DEBUG   SenderThread:406837 [sender.py:send_request():249] send_request: stop_status

@@ -1,0 +1,35 @@
+2024-04-02 20:39:42,038 INFO    MainThread:346191 [internal.py:wandb_internal():92] W&B internal server running at pid: 346191, started at: 2024-04-02 20:39:42.034737
+2024-04-02 20:39:42,040 DEBUG   HandlerThread:346191 [handler.py:handle_request():131] handle_request: check_version
+2024-04-02 20:39:42,041 INFO    WriterThread:346191 [datastore.py:open_for_write():77] open: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/run-15c0z12k.wandb
+2024-04-02 20:39:42,114 DEBUG   SenderThread:346191 [sender.py:send():235] send: header
+2024-04-02 20:39:42,114 DEBUG   SenderThread:346191 [sender.py:send_request():249] send_request: check_version
+2024-04-02 20:39:42,162 DEBUG   SenderThread:346191 [sender.py:send():235] send: run
+2024-04-02 20:39:42,419 INFO    SenderThread:346191 [dir_watcher.py:__init__():169] watching files in: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files
+2024-04-02 20:39:42,419 INFO    SenderThread:346191 [sender.py:_start_run_threads():812] run started: 15c0z12k with start time 1712090381
+2024-04-02 20:39:42,419 DEBUG   SenderThread:346191 [sender.py:send():235] send: summary
+2024-04-02 20:39:42,421 DEBUG   HandlerThread:346191 [handler.py:handle_request():131] handle_request: run_start
+2024-04-02 20:39:42,425 INFO    SenderThread:346191 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 20:39:42,427 DEBUG   HandlerThread:346191 [meta.py:__init__():36] meta init
+2024-04-02 20:39:42,428 DEBUG   HandlerThread:346191 [meta.py:__init__():50] meta init done
+2024-04-02 20:39:42,428 DEBUG   HandlerThread:346191 [meta.py:probe():210] probe
+2024-04-02 20:39:42,443 DEBUG   HandlerThread:346191 [meta.py:_setup_git():200] setup git
+2024-04-02 20:39:42,631 DEBUG   HandlerThread:346191 [meta.py:_setup_git():207] setup git done
+2024-04-02 20:39:42,631 DEBUG   HandlerThread:346191 [meta.py:_save_pip():54] save pip
+2024-04-02 20:39:42,677 DEBUG   HandlerThread:346191 [meta.py:_save_pip():68] save pip done
+2024-04-02 20:39:42,678 DEBUG   HandlerThread:346191 [meta.py:_save_conda():75] save conda
+2024-04-02 20:39:43,248 DEBUG   HandlerThread:346191 [meta.py:_save_conda():85] save conda done
+2024-04-02 20:39:43,248 DEBUG   HandlerThread:346191 [meta.py:probe():248] probe done
+2024-04-02 20:39:43,297 DEBUG   SenderThread:346191 [sender.py:send():235] send: files
+2024-04-02 20:39:43,297 INFO    SenderThread:346191 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2024-04-02 20:39:43,370 DEBUG   HandlerThread:346191 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 20:39:43,371 DEBUG   SenderThread:346191 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 20:39:43,423 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/output.log
+2024-04-02 20:39:43,424 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/requirements.txt
+2024-04-02 20:39:43,425 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/wandb-summary.json
+2024-04-02 20:39:43,426 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/wandb-metadata.json
+2024-04-02 20:39:43,427 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/conda-environment.yaml
+2024-04-02 20:39:43,868 INFO    Thread-11 :346191 [upload_job.py:push():137] Uploaded file /tmp/tmplj_33u_mwandb/1sfpkvvw-wandb-metadata.json
+2024-04-02 20:39:45,429 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/output.log
+2024-04-02 20:39:47,442 INFO    Thread-8  :346191 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203940-15c0z12k/files/output.log
+2024-04-02 20:39:58,574 DEBUG   HandlerThread:346191 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 20:39:58,575 DEBUG   SenderThread:346191 [sender.py:send_request():249] send_request: stop_status

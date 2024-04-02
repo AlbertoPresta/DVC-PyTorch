@@ -1,0 +1,36 @@
+2024-04-02 21:07:20,355 - INFO] DVC training
+2024-04-02 21:07:20,356 - INFO] config :
+2024-04-02 21:07:20,357 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+NUMERO DI RIGHE:  64612
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+lunghezza train:  50000
+dataset find image:  50000
+NUMERO DI RIGHE:  7824
+Traceback (most recent call last):
+  File "main_dvc.py", line 388, in <module>
+    valid_dataset = DataSet("/scratch/dataset/vimeo_septuplet/",mode = "valid")
+  File "/scratch/DVC-PyTorch/dataset.py", line 27, in __init__
+    self.image_input_list, self.image_ref_list = self.get_vimeo()
+  File "/scratch/DVC-PyTorch/dataset.py", line 60, in get_vimeo
+    elif self.model == "valid":
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 83, in __getattr__
+    raise AttributeError
+AttributeError

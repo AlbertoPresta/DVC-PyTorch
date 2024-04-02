@@ -1,0 +1,55 @@
+2024-04-02 21:08:32,674 INFO    MainThread:372561 [internal.py:wandb_internal():92] W&B internal server running at pid: 372561, started at: 2024-04-02 21:08:32.670926
+2024-04-02 21:08:32,678 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: check_version
+2024-04-02 21:08:32,678 INFO    WriterThread:372561 [datastore.py:open_for_write():77] open: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/run-3kokw66w.wandb
+2024-04-02 21:08:32,708 DEBUG   SenderThread:372561 [sender.py:send():235] send: header
+2024-04-02 21:08:32,708 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: check_version
+2024-04-02 21:08:32,793 DEBUG   SenderThread:372561 [sender.py:send():235] send: run
+2024-04-02 21:08:33,035 INFO    SenderThread:372561 [dir_watcher.py:__init__():169] watching files in: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files
+2024-04-02 21:08:33,035 INFO    SenderThread:372561 [sender.py:_start_run_threads():812] run started: 3kokw66w with start time 1712092111
+2024-04-02 21:08:33,036 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: run_start
+2024-04-02 21:08:33,036 DEBUG   SenderThread:372561 [sender.py:send():235] send: summary
+2024-04-02 21:08:33,042 DEBUG   HandlerThread:372561 [meta.py:__init__():36] meta init
+2024-04-02 21:08:33,043 DEBUG   HandlerThread:372561 [meta.py:__init__():50] meta init done
+2024-04-02 21:08:33,044 DEBUG   HandlerThread:372561 [meta.py:probe():210] probe
+2024-04-02 21:08:33,045 INFO    SenderThread:372561 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 21:08:33,057 DEBUG   HandlerThread:372561 [meta.py:_setup_git():200] setup git
+2024-04-02 21:08:33,154 DEBUG   HandlerThread:372561 [meta.py:_setup_git():207] setup git done
+2024-04-02 21:08:33,154 DEBUG   HandlerThread:372561 [meta.py:_save_pip():54] save pip
+2024-04-02 21:08:33,190 DEBUG   HandlerThread:372561 [meta.py:_save_pip():68] save pip done
+2024-04-02 21:08:33,191 DEBUG   HandlerThread:372561 [meta.py:_save_conda():75] save conda
+2024-04-02 21:08:33,751 DEBUG   HandlerThread:372561 [meta.py:_save_conda():85] save conda done
+2024-04-02 21:08:33,751 DEBUG   HandlerThread:372561 [meta.py:probe():248] probe done
+2024-04-02 21:08:33,850 DEBUG   SenderThread:372561 [sender.py:send():235] send: files
+2024-04-02 21:08:33,850 INFO    SenderThread:372561 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2024-04-02 21:08:33,921 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:08:33,922 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:08:34,044 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/conda-environment.yaml
+2024-04-02 21:08:34,044 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/wandb-summary.json
+2024-04-02 21:08:34,045 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/wandb-metadata.json
+2024-04-02 21:08:34,045 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/requirements.txt
+2024-04-02 21:08:34,046 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:34,332 INFO    Thread-11 :372561 [upload_job.py:push():137] Uploaded file /tmp/tmpmf5r5izzwandb/1aoknf2d-wandb-metadata.json
+2024-04-02 21:08:36,059 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:38,103 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:42,165 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:46,189 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:49,135 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:08:49,135 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:08:50,206 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:54,300 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:08:56,334 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:01,341 DEBUG   SenderThread:372561 [sender.py:send():235] send: stats
+2024-04-02 21:09:02,404 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:04,307 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:09:04,307 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:09:06,421 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:10,441 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:14,500 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:18,579 INFO    Thread-8  :372561 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_210831-3kokw66w/files/output.log
+2024-04-02 21:09:19,516 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:09:19,517 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:09:31,624 DEBUG   SenderThread:372561 [sender.py:send():235] send: stats
+2024-04-02 21:09:34,759 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:09:34,759 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 21:09:49,996 DEBUG   HandlerThread:372561 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 21:09:49,997 DEBUG   SenderThread:372561 [sender.py:send_request():249] send_request: stop_status

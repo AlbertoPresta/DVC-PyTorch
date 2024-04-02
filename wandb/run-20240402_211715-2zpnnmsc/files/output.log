@@ -1,0 +1,25 @@
+2024-04-02 21:17:18,300 - INFO] DVC training
+2024-04-02 21:17:18,300 - INFO] config :
+2024-04-02 21:17:18,328 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+NUMERO DI RIGHE:  64612
+10000
+20000
+30000
+40000
+50000
+60000
+lunghezza train set:  323060
+NUMERO DI RIGHE:  7824
+lunghezza valid set:  2000
+NUMERO DI RIGHE:  7824
+in test ho esattamente:  54068
+lunghezza test set:  500

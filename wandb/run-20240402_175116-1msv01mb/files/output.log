@@ -1,0 +1,20 @@
+2024-04-02 17:51:18,952 - INFO] DVC training
+2024-04-02 17:51:18,952 - INFO] config :
+2024-04-02 17:51:18,953 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+Traceback (most recent call last):
+  File "main_dvc.py", line 295, in <module>
+    train_dataset = DataSet("/scratch/dataset/test.txt")
+  File "/scratch/DVC-PyTorch/dataset.py", line 21, in __init__
+    self.image_input_list, self.image_ref_list = self.get_vimeo(filefolderlist=path)
+  File "/scratch/DVC-PyTorch/dataset.py", line 28, in get_vimeo
+    with open(filefolderlist) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/dataset/test.txt'

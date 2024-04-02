@@ -1,0 +1,25 @@
+2024-04-02 21:56:06,135 INFO    MainThread:406662 [wandb_setup.py:_flush():75] Loading settings from /home/presta/.config/wandb/settings
+2024-04-02 21:56:06,135 INFO    MainThread:406662 [wandb_setup.py:_flush():75] Loading settings from /scratch/DVC-PyTorch/wandb/settings
+2024-04-02 21:56:06,136 INFO    MainThread:406662 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-04-02 21:56:06,136 INFO    MainThread:406662 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'main_dvc.py', 'program': 'main_dvc.py'}
+2024-04-02 21:56:06,173 INFO    MainThread:406662 [wandb_init.py:_log_setup():386] Logging user logs to /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/logs/debug.log
+2024-04-02 21:56:06,175 INFO    MainThread:406662 [wandb_init.py:_log_setup():387] Logging internal logs to /scratch/DVC-PyTorch/wandb/run-20240402_215606-be0aziwb/logs/debug-internal.log
+2024-04-02 21:56:06,176 INFO    MainThread:406662 [wandb_init.py:init():420] calling init triggers
+2024-04-02 21:56:06,177 INFO    MainThread:406662 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {'log': '', 'pretrain': '', 'test': False, 'testhevc': False, 'testvtl': False, 'testmcl': False, 'testauc': False, 'rerank': False, 'allpick': False, 'config': 'DVC_1024.json'}
+2024-04-02 21:56:06,178 INFO    MainThread:406662 [wandb_init.py:init():471] starting backend
+2024-04-02 21:56:06,180 INFO    MainThread:406662 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-02 21:56:06,208 INFO    MainThread:406662 [backend.py:ensure_launched():219] starting backend process...
+2024-04-02 21:56:06,220 INFO    MainThread:406662 [backend.py:ensure_launched():225] started backend process with pid: 406837
+2024-04-02 21:56:06,221 INFO    MainThread:406662 [wandb_init.py:init():480] backend started and connected
+2024-04-02 21:56:06,248 INFO    MainThread:406662 [wandb_init.py:init():550] updated telemetry
+2024-04-02 21:56:06,452 INFO    MainThread:406662 [wandb_init.py:init():581] communicating current version
+2024-04-02 21:56:07,196 INFO    MainThread:406662 [wandb_init.py:init():586] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-02 21:56:07,196 INFO    MainThread:406662 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2024-04-02 21:56:07,492 INFO    MainThread:406662 [wandb_init.py:init():624] starting run threads in backend
+2024-04-02 21:56:08,410 INFO    MainThread:406662 [wandb_run.py:_console_start():1827] atexit reg
+2024-04-02 21:56:08,415 INFO    MainThread:406662 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.REDIRECT
+2024-04-02 21:56:08,416 INFO    MainThread:406662 [wandb_run.py:_redirect():1706] Redirecting console.
+2024-04-02 21:56:08,428 INFO    MainThread:406662 [wandb_run.py:_redirect():1762] Redirects installed.
+2024-04-02 21:56:08,428 INFO    MainThread:406662 [wandb_init.py:init():651] run started, returning control to user process

@@ -1,0 +1,11 @@
+2024-04-02 20:38:50,381 - INFO] DVC training
+2024-04-02 20:38:50,381 - INFO] config :
+2024-04-02 20:38:50,383 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }

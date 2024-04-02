@@ -1,0 +1,48 @@
+2024-04-02 17:51:54,856 - INFO] DVC training
+2024-04-02 17:51:54,856 - INFO] config :
+2024-04-02 17:51:54,857 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+dataset find image:  323060
+epoch 0
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:3635: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode)
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:4004: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  "Default grid_sample and affine_grid behavior has changed "
+Train Epoch : 00 [ 100/80765 (  0%)] Avgloss:25.260421 lr:0.0001 time:0.1441508118811881
+details : warppsnr : 21.30 interpsnr : 18.62 psnr : 17.45
+bpp :1.429094, bpp_mv :0.805348, bpp_res :0.456748
+Train Epoch : 00 [ 200/80765 (  0%)] Avgloss:12.323447 lr:0.0001 time:0.14147098
+details : warppsnr : 21.28 interpsnr : 20.61 psnr : 20.70
+bpp :1.230922, bpp_mv :0.776363, bpp_res :0.291528
+Train Epoch : 00 [ 300/80765 (  0%)] Avgloss:8.545107 lr:0.0001 time:0.12723253
+details : warppsnr : 21.72 interpsnr : 21.21 psnr : 22.35
+bpp :0.740127, bpp_mv :0.347145, bpp_res :0.233629
+Train Epoch : 00 [ 400/80765 (  0%)] Avgloss:8.083751 lr:0.0001 time:0.12898771
+details : warppsnr : 21.15 interpsnr : 21.15 psnr : 22.59
+bpp :0.626390, bpp_mv :0.237682, bpp_res :0.233275
+Traceback (most recent call last):
+  File "main_dvc.py", line 303, in <module>
+    global_step = train(epoch, global_step)
+  File "main_dvc.py", line 171, in train
+    clipped_recon_image, mse_loss, warploss, interloss, bpp_feature, bpp_z, bpp_mv, bpp = net(input_image, ref_image)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/DVC-PyTorch/net_dvc.py", line 96, in forward
+    recon_res_sigma = self.respriorDecoder(quant_resprior)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/DVC-PyTorch/subnet/synthesis_prior.py", line 40, in forward
+    x = self.relu2(self.deconv2(x))
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 925, in forward
+    output_padding, self.groups, self.dilation)
+KeyboardInterrupt

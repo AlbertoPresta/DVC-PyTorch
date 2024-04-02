@@ -13,6 +13,7 @@ import torch.nn.init as init
 import logging
 from torch.nn.parameter import Parameter
 from subnet import *
+#from ../../subnet import *
 
 #import torchac
 
@@ -21,11 +22,13 @@ from compressai.entropy_models import EntropyBottleneck, GaussianConditional
 from compressai.models.utils import update_registered_buffers
 from compressai.ans import BufferedRansEncoder, RansDecoder
 
-def save_model(model, iter, config):
-    if not os.path.isdir("./snap/{}".format(config)):
-        os.mkdir("./snap/{}".format(config))
-
-    torch.save(model.state_dict(), "./snap/{}/iter{}.model".format(config, iter))
+def save_model(model, best):
+    if best:
+        name = "/scratch/DVC/best.pth"
+    else:
+        name = "/scratch/DVC/last.pth"
+    torch.save(model.state_dict(), name)
+    wandb.save(name)
 
 def load_model(model, f):
     with open(f, 'rb') as f:
@@ -44,13 +47,15 @@ def load_model(model, f):
 
 class VideoCompressor(CompressionModel):
     def __init__(self, **kwargs):
-        super().__init__(entropy_bottleneck_channels=out_channel_N, **kwargs)
+        super().__init__( **kwargs)
         self.opticFlow = ME_Spynet()
         self.mvEncoder = Analysis_mv_net()
         self.mvDecoder = Synthesis_mv_net()
         self.mvpriorEncoder = Analysis_mvprior_net()
         self.mvpriorDecoder = Synthesis_mvprior_net()
         self.warpnet = Warp_net()
+
+        self.entropy_bottleneck = EntropyBottleneck(out_channel_N)
 
         self.resEncoder = Analysis_net()
         self.resDecoder = Synthesis_net()

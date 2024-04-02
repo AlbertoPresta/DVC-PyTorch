@@ -1,0 +1,60 @@
+2024-04-02 20:54:44,860 - INFO] DVC training
+2024-04-02 20:54:44,860 - INFO] config :
+2024-04-02 20:54:44,863 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+NUMERO DI RIGHE:  64612
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+lunghezza train:  70000
+dataset find image:  70000
+epoch 0
+Traceback (most recent call last):
+  File "main_dvc.py", line 395, in <module>
+    global_step = train(epoch, global_step)
+  File "main_dvc.py", line 199, in train
+    for batch_idx, input in enumerate(train_loader):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/scratch/DVC-PyTorch/dataset.py", line 95, in __getitem__
+    ref_image = imageio.imread(self.image_ref_list[index])
+  File "/opt/conda/lib/python3.7/site-packages/imageio/__init__.py", line 97, in imread
+    return imread_v2(uri, format=format, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/imageio/v2.py", line 200, in imread
+    with imopen(uri, "ri", **imopen_args) as file:
+  File "/opt/conda/lib/python3.7/site-packages/imageio/core/imopen.py", line 118, in imopen
+    request = Request(uri, io_mode, format_hint=format_hint, extension=extension)
+  File "/opt/conda/lib/python3.7/site-packages/imageio/core/request.py", line 248, in __init__
+    self._parse_uri(uri)
+  File "/opt/conda/lib/python3.7/site-packages/imageio/core/request.py", line 407, in _parse_uri
+    raise FileNotFoundError("No such file: '%s'" % fn)
+FileNotFoundError: No such file: '/scratch/dataset/vimeo_septuplet/sequences/00002/0485/im-1.png'

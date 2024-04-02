@@ -1,0 +1,30 @@
+2024-04-02 21:48:36,642 - INFO] DVC training
+2024-04-02 21:48:36,642 - INFO] config :
+2024-04-02 21:48:36,644 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+NUMERO DI RIGHE:  64612
+lunghezza train set:  2500
+NUMERO DI RIGHE:  7824
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:3635: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode)
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:4004: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  "Default grid_sample and affine_grid behavior has changed "
+lunghezza valid set:  200
+NUMERO DI RIGHE:  7824
+in test ho esattamente:  54698
+lunghezza test set:  50
+************************************  0
+epoch 0
+Train epoch 0: [0/625 (0.0%)]	Loss: 629.057 |	MSE loss: 0.608 |	Bpp loss: 6.10 |	Aux loss: 0.00
+epoch 0
+epoch 0
+************************************  1
+epoch 1

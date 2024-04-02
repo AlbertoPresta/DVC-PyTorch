@@ -1,0 +1,144 @@
+2024-04-02 20:37:23,631 INFO    MainThread:344437 [internal.py:wandb_internal():92] W&B internal server running at pid: 344437, started at: 2024-04-02 20:37:23.629477
+2024-04-02 20:37:23,634 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: check_version
+2024-04-02 20:37:23,635 INFO    WriterThread:344437 [datastore.py:open_for_write():77] open: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/run-4brasrmi.wandb
+2024-04-02 20:37:23,671 DEBUG   SenderThread:344437 [sender.py:send():235] send: header
+2024-04-02 20:37:23,673 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: check_version
+2024-04-02 20:37:23,771 DEBUG   SenderThread:344437 [sender.py:send():235] send: run
+2024-04-02 20:37:24,004 INFO    SenderThread:344437 [dir_watcher.py:__init__():169] watching files in: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files
+2024-04-02 20:37:24,006 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: run_start
+2024-04-02 20:37:24,006 INFO    SenderThread:344437 [sender.py:_start_run_threads():812] run started: 4brasrmi with start time 1712090242
+2024-04-02 20:37:24,008 DEBUG   SenderThread:344437 [sender.py:send():235] send: summary
+2024-04-02 20:37:24,013 DEBUG   HandlerThread:344437 [meta.py:__init__():36] meta init
+2024-04-02 20:37:24,013 DEBUG   HandlerThread:344437 [meta.py:__init__():50] meta init done
+2024-04-02 20:37:24,014 DEBUG   HandlerThread:344437 [meta.py:probe():210] probe
+2024-04-02 20:37:24,042 INFO    SenderThread:344437 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 20:37:24,045 DEBUG   HandlerThread:344437 [meta.py:_setup_git():200] setup git
+2024-04-02 20:37:24,143 DEBUG   HandlerThread:344437 [meta.py:_setup_git():207] setup git done
+2024-04-02 20:37:24,143 DEBUG   HandlerThread:344437 [meta.py:_save_pip():54] save pip
+2024-04-02 20:37:24,180 DEBUG   HandlerThread:344437 [meta.py:_save_pip():68] save pip done
+2024-04-02 20:37:24,181 DEBUG   HandlerThread:344437 [meta.py:_save_conda():75] save conda
+2024-04-02 20:37:24,682 DEBUG   HandlerThread:344437 [meta.py:_save_conda():85] save conda done
+2024-04-02 20:37:24,682 DEBUG   HandlerThread:344437 [meta.py:probe():248] probe done
+2024-04-02 20:37:24,730 DEBUG   SenderThread:344437 [sender.py:send():235] send: files
+2024-04-02 20:37:24,730 INFO    SenderThread:344437 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2024-04-02 20:37:24,778 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: stop_status
+2024-04-02 20:37:24,779 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: stop_status
+2024-04-02 20:37:25,010 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/conda-environment.yaml
+2024-04-02 20:37:25,013 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/requirements.txt
+2024-04-02 20:37:25,016 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-metadata.json
+2024-04-02 20:37:25,017 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-summary.json
+2024-04-02 20:37:25,018 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_created():217] file/dir created: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/output.log
+2024-04-02 20:37:25,288 INFO    Thread-11 :344437 [upload_job.py:push():137] Uploaded file /tmp/tmpluj2l3u4wandb/pemg5uto-wandb-metadata.json
+2024-04-02 20:37:27,046 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/output.log
+2024-04-02 20:37:30,808 DEBUG   SenderThread:344437 [sender.py:send():235] send: telemetry
+2024-04-02 20:37:30,809 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:30,809 DEBUG   SenderThread:344437 [sender.py:send():235] send: exit
+2024-04-02 20:37:30,809 INFO    SenderThread:344437 [sender.py:send_exit():371] handling exit code: 1
+2024-04-02 20:37:30,809 INFO    SenderThread:344437 [sender.py:send_exit():373] handling runtime: 6
+2024-04-02 20:37:30,997 INFO    SenderThread:344437 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 20:37:30,998 INFO    SenderThread:344437 [sender.py:send_exit():379] send defer
+2024-04-02 20:37:30,998 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:30,998 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:30,999 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 0
+2024-04-02 20:37:30,999 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:30,999 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 0
+2024-04-02 20:37:31,007 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 1
+2024-04-02 20:37:31,008 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:31,009 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 1
+2024-04-02 20:37:31,104 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:31,105 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 1
+2024-04-02 20:37:31,105 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 2
+2024-04-02 20:37:31,106 DEBUG   SenderThread:344437 [sender.py:send():235] send: stats
+2024-04-02 20:37:31,106 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:31,106 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 2
+2024-04-02 20:37:31,107 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:31,107 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 2
+2024-04-02 20:37:31,107 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 3
+2024-04-02 20:37:31,107 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:31,108 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 3
+2024-04-02 20:37:31,108 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:31,108 DEBUG   SenderThread:344437 [sender.py:send():235] send: summary
+2024-04-02 20:37:31,211 INFO    SenderThread:344437 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2024-04-02 20:37:31,232 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:31,232 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 3
+2024-04-02 20:37:31,233 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 4
+2024-04-02 20:37:31,233 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:31,234 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-summary.json
+2024-04-02 20:37:31,234 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:31,235 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 4
+2024-04-02 20:37:31,235 INFO    Thread-8  :344437 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/output.log
+2024-04-02 20:37:31,235 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:31,236 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 4
+2024-04-02 20:37:31,336 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:31,546 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 5
+2024-04-02 20:37:31,547 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:31,548 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:31,548 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 5
+2024-04-02 20:37:31,549 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:31,549 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 5
+2024-04-02 20:37:31,549 INFO    SenderThread:344437 [dir_watcher.py:finish():283] shutting down directory watcher
+2024-04-02 20:37:31,650 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,255 INFO    SenderThread:344437 [dir_watcher.py:_on_file_modified():230] file/dir modified: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/config.yaml
+2024-04-02 20:37:32,256 INFO    SenderThread:344437 [dir_watcher.py:finish():313] scan: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files
+2024-04-02 20:37:32,259 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/conda-environment.yaml conda-environment.yaml
+2024-04-02 20:37:32,259 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/output.log output.log
+2024-04-02 20:37:32,259 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/requirements.txt requirements.txt
+2024-04-02 20:37:32,260 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-metadata.json wandb-metadata.json
+2024-04-02 20:37:32,266 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-summary.json wandb-summary.json
+2024-04-02 20:37:32,271 INFO    SenderThread:344437 [dir_watcher.py:finish():327] scan save: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/config.yaml config.yaml
+2024-04-02 20:37:32,272 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 6
+2024-04-02 20:37:32,277 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,279 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:32,280 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 6
+2024-04-02 20:37:32,285 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:32,285 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 6
+2024-04-02 20:37:32,285 INFO    SenderThread:344437 [file_pusher.py:finish():177] shutting down file pusher
+2024-04-02 20:37:32,381 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,382 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,484 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,484 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,586 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,586 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,689 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,690 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,761 INFO    Thread-15 :344437 [upload_job.py:push():137] Uploaded file /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/config.yaml
+2024-04-02 20:37:32,779 INFO    Thread-14 :344437 [upload_job.py:push():137] Uploaded file /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/wandb-summary.json
+2024-04-02 20:37:32,793 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,794 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,794 INFO    Thread-13 :344437 [upload_job.py:push():137] Uploaded file /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/requirements.txt
+2024-04-02 20:37:32,803 INFO    Thread-12 :344437 [upload_job.py:push():137] Uploaded file /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/files/output.log
+2024-04-02 20:37:32,896 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,896 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:32,998 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:32,999 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:33,004 INFO    Thread-7  :344437 [sender.py:transition_state():392] send defer: 7
+2024-04-02 20:37:33,005 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:33,005 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 7
+2024-04-02 20:37:33,006 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:33,006 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 7
+2024-04-02 20:37:33,101 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:33,492 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 8
+2024-04-02 20:37:33,493 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:33,493 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:33,493 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 8
+2024-04-02 20:37:33,494 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:33,494 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 8
+2024-04-02 20:37:33,495 INFO    SenderThread:344437 [sender.py:transition_state():392] send defer: 9
+2024-04-02 20:37:33,496 DEBUG   SenderThread:344437 [sender.py:send():235] send: final
+2024-04-02 20:37:33,496 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: defer
+2024-04-02 20:37:33,497 DEBUG   SenderThread:344437 [sender.py:send():235] send: footer
+2024-04-02 20:37:33,497 INFO    HandlerThread:344437 [handler.py:handle_request_defer():154] handle defer: 9
+2024-04-02 20:37:33,497 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: defer
+2024-04-02 20:37:33,498 INFO    SenderThread:344437 [sender.py:send_request_defer():388] handle sender defer: 9
+2024-04-02 20:37:33,595 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: poll_exit
+2024-04-02 20:37:33,595 DEBUG   SenderThread:344437 [sender.py:send_request():249] send_request: poll_exit
+2024-04-02 20:37:33,596 INFO    SenderThread:344437 [file_pusher.py:join():182] waiting for file pusher
+2024-04-02 20:37:33,923 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: get_summary
+2024-04-02 20:37:33,924 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: sampled_history
+2024-04-02 20:37:33,925 DEBUG   HandlerThread:344437 [handler.py:handle_request():131] handle_request: shutdown
+2024-04-02 20:37:33,925 INFO    HandlerThread:344437 [handler.py:finish():739] shutting down handler
+2024-04-02 20:37:34,496 INFO    WriterThread:344437 [datastore.py:close():281] close: /scratch/DVC-PyTorch/wandb/run-20240402_203722-4brasrmi/run-4brasrmi.wandb
+2024-04-02 20:37:34,921 INFO    SenderThread:344437 [sender.py:finish():1075] shutting down sender
+2024-04-02 20:37:34,921 INFO    SenderThread:344437 [file_pusher.py:finish():177] shutting down file pusher
+2024-04-02 20:37:34,922 INFO    SenderThread:344437 [file_pusher.py:join():182] waiting for file pusher
+2024-04-02 20:37:34,925 INFO    MainThread:344437 [internal.py:handle_exit():79] Internal process exited

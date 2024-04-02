@@ -1,0 +1,26 @@
+2024-04-02 21:08:33,932 - INFO] DVC training
+2024-04-02 21:08:33,932 - INFO] config :
+2024-04-02 21:08:33,932 - INFO] {
+    "tot_epoch": 10000,
+    "tot_step": 2000000,
+    "train_lambda": 1024,
+    "lr": {
+        "base": 0.0001,
+        "decay": 0.1,
+        "decay_interval": 1800000
+    }
+}
+NUMERO DI RIGHE:  64612
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+lunghezza train:  50000
+dataset find image:  50000
+NUMERO DI RIGHE:  7824
